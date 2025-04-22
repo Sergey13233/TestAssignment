@@ -42,6 +42,8 @@ body {
 }
 
 .section__header {
+    margin-bottom: 60px;
+
     text-align: center;
 }
 
@@ -63,7 +65,6 @@ body {
 
 /* Services */
 .services {
-    margin: 60px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -73,16 +74,12 @@ body {
 .services__item {
     max-width: 370px;
     padding: 10px 30px;
-    background-color: #fef1e6;
     border: 2px solid #f17c0e;
     text-align: center;
 }
 
-.services__item__secondary {
-    max-width: 370px;
-    padding: 10px 30px;
-    border: 2px solid #f17c0e;
-    text-align: center;
+.services__item_background {
+    background-color: #fef1e6;
 }
 
 .services__icon {
@@ -103,6 +100,8 @@ body {
 
 /* Footer */
 .footer {
+    margin-top: 60px;
+
     background-color: #333333;
     color: #f2f2f2;
 
@@ -129,11 +128,6 @@ a {
         width: 300px;
         height: 250px;
     }
-
-    .services__item__secondary {
-        width: 300px;
-        height: 250px;
-    }
 }
 
 @media (max-width: 1025px) {
@@ -142,11 +136,6 @@ a {
     }
 
     .services__item {
-        width: 300px;
-        height: 250px;
-    }
-
-    .services__item__secondary {
         width: 300px;
         height: 250px;
     }
@@ -160,10 +149,6 @@ a {
     .services__item {
         width: 600px;
     }
-
-    .services__item__secondary {
-        width: 600px;
-    }
 }
 
 @media (max-width: 805px) {
@@ -172,10 +157,6 @@ a {
     }
 
     .services__item {
-        width: 550px;
-    }
-
-    .services__item__secondary {
         width: 550px;
     }
 }
@@ -195,11 +176,6 @@ a {
         width: 540px;
         height: 240px;
     }
-
-    .services__item__secondary {
-        width: 540px;
-        height: 240px;
-    }
 }
 
 @media (max-width: 440px) {
@@ -209,18 +185,13 @@ a {
         font-size: 24px;
     }
 
-    .services__title {
-        padding-bottom: 10px;
-    }
-    
     .services__item {
         width: 340px;
         height: 240px;
     }
 
-    .services__item__secondary {
-        width: 340px;
-        height: 240px;
+    .services__title {
+        padding-bottom: 10px;
     }
 }
 
